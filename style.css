@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+button {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px dashed black;
+    border-radius: 12px;
+    padding: 40px 40px;
+    margin: auto;
+    margin-top: 200px;
+    width: max-content;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
